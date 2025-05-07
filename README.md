@@ -55,7 +55,7 @@ A ideia é manter todos os GIFs organizados e versionados para facilitar a perso
 
    .values {
      font-size: 2.2rem;
-     font-weight: 600;
+     
    }
 
    .label {
