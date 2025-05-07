@@ -1,6 +1,3 @@
-Sua base já está ótima! Eu ajustei pequenos pontos para melhorar a clareza, deixei o passo a passo mais direto e padronizei a formatação. Aqui vai a versão **melhorada**:
-
-````markdown
 # 📊 Grafana GIFs Repository
 
 Este repositório é utilizado para armazenar **GIFs** que são usados nos **dashboards do Grafana**, através de **HTML customizado** 🎯.  
