@@ -24,43 +24,72 @@ A ideia é manter todos os GIFs organizados e versionados para facilitar a perso
 
    ```css
    * {
-     margin: 0;
-     padding: 0;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       box-sizing: border-box;
    }
 
    #main {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     background: linear-gradient(135deg, #003366, #0E1838);
-     padding: 10px 10px;
-     border-radius: 16px;
-     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
-     color: white;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background: linear-gradient(135deg, #003366, #0E1838);
+       padding: 8px 8px;
+       border-radius: 16px;
+       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+       color: white;
    }
 
    #main img {
-     height: 50px;
-     border-radius: 8px;
+       height: 50px;
+       border-radius: 8px;
    }
 
    #texts {
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
-     line-height: 1.2;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+       line-height: 1.2;
    }
 
    .values {
-     font-size: 2.2rem;
-     
+       font-size: 1.8rem;
+       font-weight: bold;
    }
 
    .label {
-     font-size: 1rem;
-     opacity: 0.7;
+       font-size: 1rem;
+       opacity: 0.7;
+       background: none;
+   }
+
+   @media (max-width: 1601px) {
+       #main img {
+           display: none;
+       }
+   }
+
+   @media (max-width: 1101px) {
+       .label {
+           font-size: 0.7rem;
+       }
+   }
+
+   @media (max-width: 811px) {
+       .label {
+           font-size: 0.7rem;
+       }
+   }
+
+   @media (max-width: 769px) {
+       #main img {
+           display: block;
+       }
+
+       .label {
+           font-size: 1rem;
+       }
    }
    ```
 
